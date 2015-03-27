@@ -19,4 +19,7 @@ browseURL("http://www.statmethods.net/about/books.html")
 browseURL("http://www.r-project.org/doc/bib/R-books.html")
 
 #Blogs
-browserURL("http://www.r-bloggers.com/")
+browseURL("http://www.r-bloggers.com/")
+
+#Esta palestra:
+browseURL("https://github.com/ibombonato/palestra-intro-r")
