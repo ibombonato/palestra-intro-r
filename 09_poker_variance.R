@@ -43,7 +43,7 @@ gerarTotais <- function(x){
 }
 
 #TOP NL25 (9-17 tables): 8bb/100
-data <- simularVariancia(0.08, 0.957)
+data <- simularVariancia(0.08, 0.842)
 gerarGraficoVariancia(data)
 totais <- gerarTotais(data)
 #Lucro esperado = Media de buy-ins ~80: 80 * 25 = $2000
@@ -53,7 +53,7 @@ mean(totais < 0)
 
 
 #Media NL25 (9-17 tables): 2bb/100
-data <- simularVariancia(0.02, 0.957)
+data <- simularVariancia(0.02, 0.842)
 gerarGraficoVariancia(data)
 totais <- gerarTotais(data)
 #Lucro esperado = Media de buy-ins ~17: 17 * 25 = $425
